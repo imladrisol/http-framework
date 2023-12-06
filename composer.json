@@ -22,9 +22,11 @@
         }
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.40",
         "phpunit/phpunit": "^9.6"
     },
     "scripts": {
-        "test": "phpunit --colors=always"
+        "test": "phpunit --colors=always",
+        "php-cs-fixer": "php-cs-fixer --config=.php-cs-fixer.php --allow-risky=yes"
     }
 }
