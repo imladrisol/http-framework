@@ -15,7 +15,7 @@
 ```docker-compose run --rm php-cli ./vendor/bin/phpunit --colors=always	``` run tests with colors												
 ```docker-compose run --rm php-cli composer test ```add to composer												
 ```make test```																	
-
+```docker-compose run --rm php-cli ./vendor/bin/psalm```
 																	
 																	
 																	
